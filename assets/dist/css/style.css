@@ -1,0 +1,144 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo {
+    width: 400px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: auto;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: azure;
+    z-index: 1;
+    /* border-bottom: solid 2px; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl_signup {
+    color: #ffffff;
+    background-color: #000957;
+    padding: 10px 16px 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a.tbl_signup:hover {
+    background-color: #004276;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.kolom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #004276;
+}
+
+h2 {
+    font-family: verdana;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    color: #004276;
+}
+
+a.tbl_secondary {
+    color: #ffffff;
+    background-color: #004276;
+    padding: 10px 16px 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+a.tbl_secondary:hover {
+    background-color: #000957;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* footers */
+.footers {
+    background-color: azure;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    width: auto;
+}
+
+.footers a:hover {
+    text-decoration: underline;
+}
